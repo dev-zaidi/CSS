@@ -1,0 +1,85 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{
+    background-color: rgb(190, 14, 190);
+}
+.login{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin-left: 20px;
+}
+.loginimage{
+    height: 350px;
+    width: 300px;
+    background-image: url(/IMAGES/iphone-1852901_1280.jpg);
+    background-size: cover;
+    position: absolute;
+}
+.signup{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin-left: 20px;
+}
+.signupimage{
+    height: 350px;
+    width: 300px;
+    background-image: url(/IMAGES/iphone-1852901_1280.jpg);
+    background-size: cover;
+    position: absolute;  
+}
+div{
+    display: inline-block;
+    margin-top: 20px;
+
+}
+p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+form{
+    margin: 40px;
+    font-size: 12px;
+}
+.email{
+    background-image:url(/IMAGES/a.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.password{
+    background-image:url(/IMAGES/b.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}   
+button{
+    width: 190px;
+    color: white;
+    background-color:rgb(190, 14, 190) ;
+}
+a{
+    text-decoration: none;
+}
+/* sign up page */
+.head{
+    text-align: center;
+}
+.sign{
+    border: 1px solid gray;
+    padding: 20px;
+}
+.sup{
+    width: 170px;
+}

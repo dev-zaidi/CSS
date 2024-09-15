@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.notToDisplay{
+    display: none;
+}
+body{
+    background-color: black !important;
+}
+.nav-link{
+    color: white !important;
+    margin: 20px 15px;
+} 
+.getFranchise{
+    /* its a button */
+    margin: 12px;
+    padding: 8px 15px;
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.orderOnline{
+     /* its a button */
+    margin: 12px;
+    padding: 15px;
+    background-color: #ED1C24;
+    color: white;
+    border: 1px solid red;
+    border-radius: 30px;
+}
+.arrow{
+     /* its an arrow inside button  */
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+    size: 50px;
+    padding: 5px;
+}
+.carousel-image{
+    /* its height needs to be changed in mobile view */
+    height: 540px;
+    width: 100%;
+}
+.card{
+     /* overwriting the border of cards */
+    border: 1px solid black !important;
+}
+.threeButtons{
+    /* buttons below 3 cards */
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    left: 25%
+}
+/* franchise flexbox */
+.imagePlace{
+    width: 100%;
+}
+/* village franchise */
+.imageVillage{
+    width: 660px;
+    height: 340px;
+}
+.cardWithImageOnly{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardImage{
+    width: 100%;
+    height: 150px;
+}
+.socialFeed{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-discription{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    width: 25%;
+}
+.list{
+    list-style-type:none;
+    line-height: 2.5;
+}
+.contactUs{
+    width: 350px;
+    padding: 25px;
+    padding-top: 10px;
+    line-height: 1;
+}
+.followUs{
+    padding: 20px;
+    padding-top: 10px;
+}
+.socialIcon{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+}
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+    
+    .main{
+         padding: 0;
+        }
+    .imagePlace{
+        padding: 0;
+        width: 50px;
+    
+    }
+    .first{
+        order: 2;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .second{
+        order: 1;
+        flex-basis: 100%;
+
+    }
+    .third{
+        order: 3;
+        flex-basis: 100%;
+    }
+    .fourth{
+        order: 4;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .fifth{
+        order: 6;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .sixth{
+        order: 5;
+        flex-basis: 100%;
+    }
+    .imagePlace{
+        width: 100%;
+        height: 100%;
+    }
+    .villageFranchiseContent{
+        text-align: center;
+    }
+    .socialFeed{
+        display: flex;
+        flex-wrap:wrap ;
+    }
+    .info{
+        width: 100%;
+    }
+    .logo{
+        height: 30px;
+        width: 60px;
+    }
+    .notToDisplay{
+        display: inline-block;
+        padding: 5px;
+        font-size: 8px;
+
+    }
+    .HideOnMobile{
+        display: none;
+    }
+    .ChangeWidth{
+        width: 10rem !important;
+        padding: 2px;
+    }
+    .socialFeed{
+        display: ;
+    }
+   
+
+
+    
+
+
+}

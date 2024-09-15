@@ -1,0 +1,151 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.jplogo{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px ;
+    position:relative;
+    top: 8px;
+}
+a{
+    text-decoration: none;
+    color: black ;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.description{
+    width: 450px;
+    margin-left:40px;
+}
+h1{
+    font-size: 25px;
+    color: rgb(10, 95, 10);
+}
+p{
+    font-size: 11px;
+    line-height: 18px;
+    color: gray;
+}
+.image1{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    right: 70px;
+}
+.image2{
+    width: 350px;
+    height: 230px;
+    position: absolute;
+    top: 520px;
+}
+.description2{
+    width: 450px;
+    margin-right:40px;
+    position: absolute;
+    right: 10px;
+}
+.SAM{
+    border-radius: 50%;
+    height: 150px;
+    position:relative;
+    left: 45%;
+}
+.description3{
+    text-align: center;
+    width: 450px;
+    position: relative;
+    left: 250px;
+}
+small{
+    color: gray;
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+}
+.trainings{
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+    margin-left: 40px;
+    display: inline-block;
+}
+.images{
+    width: 100%;
+    height: 80%px;
+    border-radius: 8px;
+}
+#fourth{
+    margin-left: 200px;
+}
+.sessions{
+    height: 150px;
+}
+#a{
+    margin-left: 40px;
+    width: 200px;
+}
+#b{
+    width: 200px;
+}
+#c{
+    height:250px;
+}
+#d{
+   margin-left: 40px;
+   height: 250px;
+}
+.form{
+    position: relative;
+    left: 30%;
+    font-size: 12px;
+    color: gray;
+    width: 600px;
+}
+form>p{
+    font-size: 20px;
+}
+input{
+    width: 70%;
+    height: 20px;
+}
+textarea{
+    width: 70%;
+    height: 40px;
+}
+
+button{
+    color: white;
+    background-color: rgb(10, 95, 10);
+    border:none;
+    width: 70%;
+    height: 25px;
+}
+.footerimg{
+    height: 40px;
+}
+.foot{
+    display: block;
+}
+.partone{
+    position: relative;
+    left: 250px;
+    top: -30px;
+}
+.parttwo{
+    position: relative;
+    left: 400px;
+    top: -90px;
+}

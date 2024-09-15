@@ -1,0 +1,29 @@
+@font-face {
+    font-family:Sansita-Black ;
+    src: url(/fonts/Sansita-Black.ttf);
+}
+
+body{
+    background-color: rgb(228, 184, 142);
+    font-family: Sansita-Black;
+   
+    
+   }  
+.container {
+    display:flex;
+   
+}
+  
+.imagecontainer{
+    float: left;
+}
+.textcontainer {
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+    line-height: 0.2cm;
+}
+  
+.image{
+    height: 200px;
+}

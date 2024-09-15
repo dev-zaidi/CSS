@@ -1,0 +1,17 @@
+@font-face {
+    font-family:PlaywriteNL ;
+    src: url(PlaywriteNL-VariableFont_wght.ttf);
+}
+
+body{
+    color: white;
+    font-family:PlaywriteNL;
+    background-color: rgb(0,0,0);
+    text-align: center;
+}
+
+a{
+    color: rgb(238, 13, 99);
+    
+}
+
